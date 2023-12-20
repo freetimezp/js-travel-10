@@ -9,8 +9,8 @@ const Navbar = () => {
     const navigate = useNavigate();
 
     return (
-        <nav className="sticky top-0 z-50 bg-[url('/assets/bg-nav.jpg')] bg-no-repeat 
-            lg:bg-cover overflow-hidden">
+        <nav className="sticky top-0 z-50 bg-[#69a6db]/50 md:bg-[url('/assets/bg-nav.jpg')]/99 bg-no-repeat 
+            lg:bg-cover overflow-hidden shadow-md ">
             <div className="container mx-auto flex flex-wrap items-center justify-between 
                 px-6">
                 <div className="w-full sticky top-0 flex justify-between lg:w-auto lg:static 

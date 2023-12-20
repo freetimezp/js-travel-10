@@ -1,4 +1,5 @@
 import Navbar from "../components/Navbar";
+import Hero from "../components/Hero";
 import Footer from "../components/Footer";
 
 const Home = () => {
@@ -7,9 +8,9 @@ const Home = () => {
             <Navbar />
 
             <main>
-
+                <Hero />
             </main>
-            <div className="min-h-[4000px]"></div>
+
             <Footer />
         </div>
     );

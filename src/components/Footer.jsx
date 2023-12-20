@@ -12,7 +12,7 @@ import { TiSocialGooglePlus } from 'react-icons/ti';
 const Footer = () => {
     return (
         <footer>
-            <section className="flex flex-col bg-[#07253f] pt-8">
+            <section className="flex flex-col bg-[#07253f]/95 pt-8">
                 <div className="lg:flex items-center justify-between pb-8">
                     <div className="lg:flex justify-between lg:w-2/3 m-auto lg:px-0 px-3">
                         <div>
