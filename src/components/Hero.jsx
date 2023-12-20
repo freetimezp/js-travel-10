@@ -33,8 +33,8 @@ const Hero = () => {
                 </div>
             </div>
 
-            <div className="absolute lg:right-24 right-5 top-[45%] -transform-y-[50%]
-                flex flex-col gap-6">
+            <div className="absolute lg:right-24 right-5 top-[75%] md:top-[45%] md:-transform-y-[50%]
+                flex flex-row right-[35%] md:right-0 md:flex-col gap-6">
                 <FaFacebookF className="cursor-pointer text-2xl text-white transition-all 
                     duration-300 ease-in-out hover:fill-[#283661]" />
                 <FaInstagram className="cursor-pointer text-2xl text-white transition-all 

@@ -1,5 +1,6 @@
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
+import Search from "../components/Search";
 import Footer from "../components/Footer";
 
 const Home = () => {
@@ -9,6 +10,7 @@ const Home = () => {
 
             <main>
                 <Hero />
+                <Search />
             </main>
 
             <Footer />
