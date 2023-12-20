@@ -9,7 +9,7 @@ const Navbar = () => {
     const navigate = useNavigate();
 
     return (
-        <nav className="sticky top-0 z-50 bg-[#69a6db]/50 md:bg-[url('/assets/bg-nav.jpg')]/99 bg-no-repeat 
+        <nav className="sticky top-0 z-50 bg-[#69a6db]/85 md:bg-[url('/assets/bg-nav.jpg')]/99 bg-no-repeat 
             lg:bg-cover overflow-hidden shadow-md ">
             <div className="container mx-auto flex flex-wrap items-center justify-between 
                 px-6">
@@ -34,37 +34,37 @@ const Navbar = () => {
                     ${navbarOpen ? 'flex' : 'hidden'}`}>
                     <ul className="flex flex-col lg:flex-row items-center gap-x-4 list-none 
                         lg:ml-auto lg:transform-none lg:translate-y-[-50%] gap-y-8 lg:gap-y-0">
-                        <li className="py-2 flex text-[#337986] uppercase font-medium items-center 
+                        <li className="py-2 flex text-[#fff] uppercase font-medium items-center 
                             leading-snug hover:text-[#283661] transition-all duration-300 
-                            cursor-pointer text-lg hover:-translate-y-1">
+                            cursor-pointer text-md hover:-translate-y-1">
                             <NavLink to='/'>
                                 Trips
                             </NavLink>
                         </li>
-                        <li className="py-2 flex text-[#337986] uppercase font-medium items-center 
+                        <li className="py-2 flex text-[#fff] uppercase font-medium items-center 
                             leading-snug hover:text-[#283661] transition-all duration-300 
-                            cursor-pointer text-lg hover:-translate-y-1">
+                            cursor-pointer text-md hover:-translate-y-1">
                             <NavLink to='/'>
                                 Recommended Island
                             </NavLink>
                         </li>
-                        <li className="py-2 flex text-[#337986] uppercase font-medium items-center 
+                        <li className="py-2 flex text-[#fff] uppercase font-medium items-center 
                             leading-snug hover:text-[#283661] transition-all duration-300 
-                            cursor-pointer text-lg hover:-translate-y-1">
+                            cursor-pointer text-md hover:-translate-y-1">
                             <NavLink to='/'>
                                 Transport
                             </NavLink>
                         </li>
-                        <li className="py-2 flex text-[#337986] uppercase font-medium items-center 
+                        <li className="py-2 flex text-[#fff] uppercase font-medium items-center 
                             leading-snug hover:text-[#283661] transition-all duration-300 
-                            cursor-pointer text-lg hover:-translate-y-1">
+                            cursor-pointer text-md hover:-translate-y-1">
                             <NavLink to='/'>
                                 Boat Charterd
                             </NavLink>
                         </li>
-                        <li className="py-2 flex text-[#337986] uppercase font-medium items-center 
+                        <li className="py-2 flex text-[#fff] uppercase font-medium items-center 
                             leading-snug hover:text-[#283661] transition-all duration-300 
-                            cursor-pointer text-lg hover:-translate-y-1">
+                            cursor-pointer text-md hover:-translate-y-1">
                             <NavLink to='/'>
                                 Boat Time Table
                             </NavLink>
