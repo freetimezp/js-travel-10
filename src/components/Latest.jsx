@@ -4,6 +4,7 @@ import { AiFillStar } from 'react-icons/ai';
 import { BsPeaceFill } from "react-icons/bs";
 import { IoIosWifi } from 'react-icons/io';
 import { MdAccessTime } from "react-icons/md";
+import HowItWorks from "./HowItWorks";
 
 const responsive = {
     superLargeDesktop: {
@@ -81,7 +82,7 @@ const Latest = () => {
                     responsive={responsive}
                     ssr={true}
                     infinite
-                    autoPlay={false}
+                    autoPlay={true}
                     autoPlaySpeed={2000}
                     keyBoardControl={true}
                     customTransition="all .5"
@@ -151,6 +152,8 @@ const Latest = () => {
                     ))}
                 </Carousel>
             </div>
+
+            <HowItWorks />
         </div>
     );
 }
