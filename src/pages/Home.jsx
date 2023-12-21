@@ -5,6 +5,7 @@ import Footer from "../components/Footer";
 import Destinations from "../components/Destinations";
 import Recommended from "../components/Recommended";
 import Assistance from "../components/Assistance";
+import Latest from "../components/Latest";
 
 const Home = () => {
     return (
@@ -17,6 +18,7 @@ const Home = () => {
                 <Destinations />
                 <Recommended />
                 <Assistance />
+                <Latest />
             </main>
 
             <Footer />
