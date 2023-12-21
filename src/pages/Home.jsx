@@ -4,6 +4,7 @@ import Search from "../components/Search";
 import Footer from "../components/Footer";
 import Destinations from "../components/Destinations";
 import Recommended from "../components/Recommended";
+import Assistance from "../components/Assistance";
 
 const Home = () => {
     return (
@@ -15,6 +16,7 @@ const Home = () => {
                 <Search />
                 <Destinations />
                 <Recommended />
+                <Assistance />
             </main>
 
             <Footer />
